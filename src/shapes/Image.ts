@@ -11,7 +11,7 @@ import { GetSet, IRect } from '../types';
 import { Context } from '../Context';
 
 export interface ImageConfig extends ShapeConfig {
-  image: CanvasImageSource | undefined;
+  image?: CanvasImageSource;
   crop?: IRect;
   cornerRadius?: number | number[];
 }
